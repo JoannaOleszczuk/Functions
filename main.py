@@ -1,3 +1,17 @@
+def add2(c):
+    tmpSum = 0
+    for i in c:
+        tmpSum += i
+    return tmpSum
+print(add2([1,2,3,4,5]))
+
+def multiply2(d):
+    tmpMul = 1
+    for i in d:
+        tmpMul = tmpMul * i
+    return tmpMul
+print(multiply2([1,2,3,4,5]))
+
 def add(a, b):
     return a + b
 
@@ -25,4 +39,6 @@ print(substract(3, 4))
 print(multiply(2, 5))
 
 print(add(substract(2, 3), multiply(4, 5)))
+
+
 
